@@ -4,6 +4,8 @@ html {
     overflow: hidden;
 }
 
+
+
 .body {
     height: 100%;
 }
@@ -32,8 +34,8 @@ overflow: hidden;
 .header2 {
     border: none;
     width: 100%;
-    height: 105px;
-    background-color: rgb(195, 97, 97);
+    height: 100px;
+    background-color: rgb(255, 255, 255);
     z-index: 0;
     position: fixed;
 }
@@ -41,8 +43,8 @@ overflow: hidden;
 .header3 {
     border: none;
     width: 100%;
-    height: 105px;
-    background-color: white;
+    height: 103px;
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,7 +56,21 @@ overflow: hidden;
     border: none;
     width: 100%;
     height: 100px;
-    background-color: white;
+    background-color: rgb(0, 255, 204);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    font-family: Kanit, serif;
+    font-weight: 1000;
+    font-size: 20px;
+}
+.header5 {
+    scroll-margin-top: 105px;
+    border: none;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,6 +154,14 @@ overflow: hidden;
     top: 105px;
     bottom: 0;
     width:100%;
+    color:red;
+}
+.displayd {
+    position:absolute;
+    top: 105px;
+    bottom: 0;
+    width:100%;
+    color:rgb(255, 255, 255);
 }
 .cancel {
     margin-right: 10px;

@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="icon" href="img/favicon.png"
+    <link rel="icon" href="img/ankh_white.png"
           type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <!-- Bootstrap CSS -->
@@ -34,30 +34,34 @@
 
 <body id="body" class="body">
 <div class="header1">
-    <a id="cancel" onclick="cancel()" class="cancel"><img src="img/171_Logo_Black.png" width="48px" height="48px"></a>
+    <a id="cancel" onclick="cancel()" class="cancel"><img src="img/ankh.png" width="48px" height="48px"></a>
     <div class="dropdown">
         <button class="dropbtn">General Researches</button>
         <div class="dropdown-content">
-            <a onclick="funmath()">คณิตพื้นฐาน</a>
-            <a onclick="social()">สังคมศึกษา</a>
+            <a onclick="funmath()">Social Study</a>
         </div>
     </div>
     <div class="dropdown2">
         <button class="dropbtn2">Infographics</button>
         <div class="dropdown-content2">
             <a onclick="antibac()">Antimicrobial Resistance</a>
-            <a onclick="enartbio()">ชีวะ (วิศวะ-สถาปัตย์)</a>
-            <a onclick="physics()">ฟิสิกส์</a>
-            <a onclick="enchem()">เคมี (แพทย์-วิศวะ)</a>
-            <a onclick="artchem()">เคมี (สถาปัตย์)</a>
-            <a onclick="addmath()">คณิตเพิ่มเติม</a>
+            <a onclick="paint()">Painting guideline</a>
+            <a onclick="GDP()">GDP & Standard of living</a>
+            <a onclick="Diabetes()">Diabetes Awareness</a>
+            <a onclick="medes()">Ancient Greece model</a>
+            <a onclick="Heat()">Heat transfer lab</a>
         </div>
     </div>
     <div class="dropdown3">
         <button class="dropbtn3">School Projects</button>
         <div class="dropdown-content3">
-            <a onclick="antibac()">วิทยาศาสตร์</a>
-            <a onclick="addmath()">คณิตเพิ่มเติม</a>
+            <a onclick="NaCl()">Concentration of solution Lab</a>
+            <a onclick="Ky()">KhaoYai Biodiversity investigation</a>
+            <a onclick="Time()">Time Scale (3D model)</a>
+            <a onclick="TDG()">3D Graphing</a>
+            <a onclick="Bottle()">Bottle opener</a>
+            <a onclick="Limit()">Limits & Slope</a>
+            <a onclick="Art()">Art of Edo</a>
         </div>
     </div>
     <div class="dropdown4">
@@ -67,54 +71,64 @@
             <a onclick="web()">Portfolio website</a>
         </div>
     </div>
-
 </div>
 <div class="header2"></div>
 <div class="header3"></div>
+<div>
+    <h1 class="header5"> hello</h1>
+</div>
 <div class="display" id="display">
-    <iframe src="https://drive.google.com/file/d/15r8LmbsnF8iYd6ZNz3E0AVTz2NHiPRtC/preview" style="width:100%; height:100%;" ></iframe>
 </div>
 </body>
 <script>
-    // function funmath() {
-    //     document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/1p76JKThPrVdGI1vPSp6DV_PrL0DE9uJM/preview\" height=\"100%\" width=\"100%\" ></iframe>";
-    // }
-    // function social() {
-    //     document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/1pCqeDho4ch6O0uoGj4uHOHlWpozS9f2o/preview\" height=\"100%\" width=\"100%\" ></iframe>";
-    // }
-    // function antibac() {
-    //     document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/17uL5xzYseYKlLVLxzI7z3YW2IQdgaolR/preview\" height=\"100%\" width=\"100%\" ></iframe>";
-    // }
-    // function enartbio() {
-    //     document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/1dPDc-h85EEEYDPjGIKU7uES66KsBE8qq/preview\" height=\"100%\" width=\"100%\" ></iframe>";
-    // }
-    // function physics() {
-    //     document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/1pAyr_w3EnE80dYR4eyVeVVy9JPy52mu5/preview\" height=\"100%\" width=\"100%\" ></iframe>";
-    // }
-    // function enchem() {
-    //     document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/1p8IQo30UQKyGX8EJmgOeqUZCeLTZmtHY/preview\" height=\"100%\" width=\"100%\" ></iframe>";
-    // }
-    // function artchem() {
-    //     document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/1RDO5AwIChdq8a0R6d6lD2xxmummWkyI7/preview\" height=\"100%\" width=\"100%\" ></iframe>";
-    // }
-    // function addmath() {
-    //     document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/1p9G0ZoYkISzS-qgyjQNw_dNiqbpQ5lXc/preview\" height=\"100%\" width=\"100%\" ></iframe>";
-    // }
-    // function portfolio() {
-    //     document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/1p9G0ZoYkISzS-qgyjQNw_dNiqbpQ5lXc/preview\" height=\"100%\" width=\"100%\" ></iframe>";
-    // }
-    // function web() {
-    //     document.getElementById("display").innerHTML = "<iframe src=\"https://nileparun.com\" height=\"100%\" width=\"100%\" ></iframe>";
-    // }
-    // function cancel() {
-    //     document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/15r8LmbsnF8iYd6ZNz3E0AVTz2NHiPRtC/preview\" style=\"width:100%; height:100%;\" ></iframe>";
-    // }
-    // // function grey() {
-    // //     document.getElementById("cancel").innerHTML = "<img src=\"{{ url_for('static', filename='img/171_Logo_Grey.png')}}\" width=\"48px\" height=\"48px\">";
-    // // }
-    // // function blacc() {
-    // //     document.getElementById("cancel").innerHTML = "<img src=\"{{ url_for('static', filename='img/171_Logo_Black.png')}}\" width=\"48px\" height=\"48px\">";
-    // // }
+    function antibac() {
+        document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/10BOQxQoOAyITiFiQtU0g0dtPw6P9nKdi/preview\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
+    }
+    function paint() {
+        document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/10B1pRIIX828aC760r-VN_tFUJjs6Ubnd/preview\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
+    }
+    function GDP() {
+        document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/10AG0Pspmj2GcyV5q5VgI75LzlBKVC6FR/preview\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
+    }
+    function Diabetes() {
+        document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/107klEdxolsmIHYP7Isw1ldRn6pY_IrBv/preview\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
+    }
+    function Heat() {
+        document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/103mPieRwMx5u2KzKgthS1AkGwVoc6th-/preview\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
+    }
+    function medes() {
+        document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/1011T3rVVayXOjysvukEmvqlvpXKdN9en/preview\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
+    }
+    function NaCl() {
+        document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/10OS9cwuKoiini5IdEj3B00psE-TNy4tE/preview\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
+    }
+    function Ky() {
+        document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/1-WgKhdMXbeOnhEvRETRzJ9Bb6Il0__l8/preview\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
+    }
+    function Time() {
+        document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/1-DFWRQ0Y2ZjP4SGn6llcctBXkoIwdZzo/preview\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
+    }
+    function TDG() {
+        document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/1-yzntjc5F-wsGKkGQc_ECPztloupKokq/preview\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
+    }
+    function Bottle() {
+        document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/1-oEr6sHv3dxhRuA0BVbROU_hVEf85-tA/preview\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
+    }
+    function Limit() {
+        document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/10F8pqYjDj9NMnCiJN_YcRi-1F-6o2qXo/preview\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
+    }
+    function Art() {
+        document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/1-GK4VLxOhtRXl70rJirMGPcX7vEbSFm1/preview\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
+    }
+    function portfolio() {
+        document.getElementById("display").innerHTML = "<iframe src=\"https://nileparun.com\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
+    }
+    function web() {
+        document.getElementById("display").innerHTML = "<iframe src=\"https://nileparun.com\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
+    }
+    function cancel() {
+        document.getElementById("display").innerHTML = "";
+    }
 </script>
 
 
