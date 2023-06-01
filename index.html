@@ -34,7 +34,7 @@
 
 <body id="body" class="body">
 <div class="header1">
-    <a id="cancel" onclick="cancel()" class="cancel"><img src="img/ankh.png" width="48px" height="48px"></a>
+    <a id="cancel" onclick="cancel()" class="cancel"><img src="img/home.png" width="48px" height="48px"></a>
     <div class="dropdown">
         <button class="dropbtn">General Researches</button>
         <div class="dropdown-content">
@@ -74,12 +74,33 @@
 </div>
 <div class="header2"></div>
 <div class="header3"></div>
-<div>
-    <h1 class="header5"> hello</h1>
+    <div class="body1">
+    <h2 class="header5"> Parun Thummadetsak </h2>
+<div class="container">
+    <h2 class="object" data-value="3">Hello <br> <span> Test </span></h2>
+    <!-- <img src="img/book1.png" class="object" data-value="-2" alt=""> -->
+    <img src="img/book2.png" class="object" data-value="6" alt="">
+    <img src="img/book3.png" class="object" data-value="4" alt="">
+    <img src="img/book4.png" class="object" data-value="-6" alt="">
+    <img src="img/book5.png" class="object" data-value="8" alt="">
+    <img src="img/book6.png" class="object" data-value="-4" alt="">
 </div>
-<div class="display" id="display">
+<div class="display" id="display"></div>
 </div>
 </body>
+<script type="text/javascript">
+    document.addEventListener("mousemove", parallax);
+    function parallax(e){
+      document.querySelectorAll(".object").forEach(function(move){
+
+        var moving_value = move.getAttribute("data-value");
+        var x = (e.clientX * moving_value) / 250;
+        var y = (e.clientY * moving_value) / 250;
+
+        move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
+      });
+    }
+    </script>
 <script>
     function antibac() {
         document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/10BOQxQoOAyITiFiQtU0g0dtPw6P9nKdi/preview\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
