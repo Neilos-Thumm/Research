@@ -25,7 +25,7 @@ overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1;
+    z-index: 4;
     position: fixed;
     font-family: Kanit, serif;
     font-weight: 500;
@@ -60,7 +60,7 @@ overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1;
+    z-index: 0;
     font-family: Kanit, serif;
     font-weight: 1000;
     font-size: 20px;
@@ -78,19 +78,22 @@ overflow: hidden;
     font-family: Kanit, serif;
     font-weight: 1000;
     font-size: 40px;
-    z-index: 1;
+    z-index: 3;
     top: 65% ;
 }
 .header1 p{
     cursor: pointer;
+    z-index: 0;
 }
 .header1 p:hover {
     color:red;
     text-decoration: underline;
+     z-index: 1;
 }
 
 .pdf {
     height: 100%;
+    z-index: 2;
 }
 
 .dropbtn, .dropbtn2, .dropbtn3, .dropbtn4 {
@@ -99,6 +102,7 @@ overflow: hidden;
     padding: 10px;
     font-size: 16px;
     border: none;
+    z-index: 3;
 }
 
 .dropdown, .dropdown2 {
@@ -166,6 +170,7 @@ overflow: hidden;
     bottom: 0;
     width:100%;
     color:red;
+    z-index: 3;
 }
 .displayd {
     position:absolute;
@@ -173,7 +178,7 @@ overflow: hidden;
     bottom: 0;
     width:100%;
     color:rgb(255, 255, 255);
-    z-index: 3;
+    z-index: 0;
 }
 .cancel {
     margin-right: 10px;
@@ -229,7 +234,7 @@ h2{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    z-index: 2;
+    z-index: 1;
 }
 .container img{
     position: absolute;
@@ -238,7 +243,7 @@ h2{
     top: 0;
     left: 0;
     object-fit:contain;
-    z-index: 2;
+    z-index: 1;
 }
 .container h2{
     z-index: 1;
@@ -249,6 +254,7 @@ h2{
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 32px;
+    z-index: 1;
 }
 .container h2 span{
     font-size: 49px;
@@ -256,15 +262,18 @@ h2{
     font-weight: 400;
     top: 90%;
     left: 60%;
+    z-index: 1;
 }
 @media (max-width:800px){
     .container h2{
         font-size: 60px;
         letter-spacing: 19px;
         line-height: 35px;
+        z-index: 1;
     }
     .container h2 span{
         font-size: 26px;
+        z-index: 1;
     }
 }
 
@@ -273,5 +282,5 @@ h2{
     color: black;
     background-color: black;
     flex-direction: column;
-    z-index: -1;
+    z-index: 1;
 }
