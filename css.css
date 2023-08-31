@@ -68,7 +68,7 @@ body {
   position: absolute;
   z-index: 1;
   width: 100%;
-  left: 3%;
+  left: 0%;
   gap: 0;
   top: 50%;
   transform: translate(0%, -50%); 
