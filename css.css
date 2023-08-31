@@ -456,10 +456,12 @@ overflow: hidden;
   left: 51%;
   pointer-events: none;
   margin-top:10vh;
+  color:rgb(255, 255, 255);
+  text-shadow: 6px 5px 10px black;
 }
 
 @keyframes cursor { 
-  50% {border-color: green}
+  50% {border-color: rgb(0, 99, 0)}
 }
 @keyframes typing {
   from {width:0%}

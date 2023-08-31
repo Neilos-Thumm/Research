@@ -177,7 +177,6 @@ images.forEach((image) => {
       // Extract the width and height from the computed styles
       var width = parseFloat(computedStyles.getPropertyValue("width"));
       var height = parseFloat(computedStyles.getPropertyValue("height"));
-
       var rect = img.getBoundingClientRect();
 
 //       var topPosition = rect.top + window.pageYOffset;
@@ -396,6 +395,12 @@ function Limit() {
 }
 function Art() {
   document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/1-GK4VLxOhtRXl70rJirMGPcX7vEbSFm1/preview\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
+}
+function LLM() {
+  document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/1SarAAOBn-A3FsU2qAntSwyi7n1CeirkB/preview\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
+}
+function microbe() {
+  document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/1Z-KBFfRj_cD3lRCgNsPmSu6CSKOMF8Oz/preview\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
 }
 function portfolio() {
   document.getElementById("display").innerHTML = "<iframe src=\"https://nileparun.com\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
