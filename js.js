@@ -402,11 +402,14 @@ function LLM() {
 function microbe() {
   document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/1Z-KBFfRj_cD3lRCgNsPmSu6CSKOMF8Oz/preview\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
 }
-function portfolio() {
-  document.getElementById("display").innerHTML = "<iframe src=\"https://nileparun.com\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
+function social() {
+  document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/11ASEUiow0GS9sa6gkg8sovbEpQG47uiS/preview\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
 }
-function web() {
-  document.getElementById("display").innerHTML = "<iframe src=\"https://nileparun.com\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
+function science() {
+  document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/1w6f7filSgSQLW7KV9_NLHeRs-Ou8Gp3P/preview\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
+}
+function portfolio() {
+  document.getElementById("display").innerHTML = "<iframe src=\"https://drive.google.com/file/d/1XBCvHF8chqXVbagZdvfe8-sBx3uq9Khk/preview\" height=\"100%\" width=\"100%\"style=\"background-color: white;\" ></iframe>";
 }
 function cancel() {
   document.getElementById("display").innerHTML = "";
